@@ -335,7 +335,7 @@
       if (p.charAt(0) === '/') {
         return p;
       }
-      return (localePrefix + '/' + p).replace(/\/\/+/, '/');
+      return ('/mw-testpage' + localePrefix + '/' + p).replace(/\/\/+/, '/');
     }
 
     var indexUrl = localizePath(window.searchConfig.fallback_json || 'search.json');
@@ -480,7 +480,7 @@
         });
     }
 
-    loadIndex(indexUrl, window.searchConfig.fallback_json && indexUrl !== window.searchConfig.fallback_json ? window.searchConfig.fallback_json : null);
+    loadIndex(indexUrl, window.searchConfig.fallback_json && indexUrl !== localizePath(window.searchConfig.fallback_json) ? localizePath(window.searchConfig.fallback_json) : null);
   }
 
 })(jQuery);

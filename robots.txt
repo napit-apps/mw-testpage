@@ -1,4 +1,4 @@
-Sitemap: https://mehrwert.tech/sitemap.xml
+Sitemap: https://napit-apps.github.io/mw-testpage/sitemap.xml
 
 # User-agent: GPTBot
 # Disallow: /
