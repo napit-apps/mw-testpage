@@ -1,0 +1,4 @@
+Sitemap: https://mehrwert.tech/sitemap.xml
+
+# User-agent: GPTBot
+# Disallow: /

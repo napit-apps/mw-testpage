@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://mehrwert.tech/index.xml" rel="self" type="application/atom+xml" /><link href="https://mehrwert.tech/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-11T11:32:13+01:00</updated><id>https://mehrwert.tech/index.xml</id><title type="html">page_title</title><subtitle>page_description</subtitle><author><name>mehr.wert Software und IT Beratung GmbH</name></author><entry><title type="html">Beyond Architecture – Why IT Modernization Is Also Organizational Change</title><link href="https://mehrwert.tech/Beyond-Architecure" rel="alternate" type="text/html" title="Beyond Architecture – Why IT Modernization Is Also Organizational Change" /><published>2026-03-23T00:00:00+01:00</published><updated>2026-03-23T00:00:00+01:00</updated><id>https://mehrwert.tech/Beyond-Architecure</id><content type="html" xml:base="https://mehrwert.tech/Beyond-Architecure"><![CDATA[<p>In the previous articles, I explored different aspects of modern IT modernization. The starting point was the observation that many systems do not fail because of technology, but because of a lack of clarity about their underlying domain structure. Domain-Driven Design provides the foundation to understand systems and to define meaningful boundaries.</p>
+
+<p>Building on this, I showed how this understanding leads to concrete decisions—from prioritizing domains to defining migration strategies and creating a realistic roadmap. Approaches such as Golden Master Testing and the Strangler Fig Pattern play a key role in implementing these changes in a controlled way while managing risk.</p>
+
+<p>This perspective is intentionally holistic. IT modernization is not a single architectural concern, but a combination of structure, decision-making, implementation, and quality assurance.</p>
+
+<p>What is often overlooked is that this combination does not stop at the system level. It directly affects the organization that builds and operates these systems.</p>
+
+<p>This is where it becomes clear that IT modernization is more than a technical initiative.</p>
+
+<h2 id="systems-and-organizations-are-tightly-coupled">Systems and organizations are tightly coupled</h2>
+
+<p>A central aspect that is often underestimated in modernization efforts is the close relationship between system structure and organizational structure.</p>
+
+<p>Systems do not emerge in isolation. They reflect how teams collaborate, how decisions are made, and how responsibilities are distributed.</p>
+
+<p>This observation is commonly described as Conway’s Law: systems tend to mirror the communication structures of the organizations that build them.</p>
+
+<p>In practice, this means:</p>
+
+<p>Fragmented organizations produce fragmented systems.<br />
+Unclear responsibilities lead to unclear system boundaries.<br />
+Local optimization results in global complexity.</p>
+
+<p>If these underlying structures remain unchanged, they will reappear in any new system that is built.</p>
+
+<h2 id="why-technical-modernization-alone-is-not-enough">Why technical modernization alone is not enough</h2>
+
+<p>Many modernization initiatives focus heavily on architecture and technology. New platforms are introduced, services are restructured, and target architectures are defined.</p>
+
+<p>At the same time, the underlying ways of working often remain unchanged. Teams continue to operate along historical boundaries, responsibilities remain unclear, and decisions are still made in a fragmented way.</p>
+
+<p>The result is predictable.</p>
+
+<p>The new architecture is shaped by the existing organization. Boundaries blur, dependencies re-emerge, and complexity returns.</p>
+
+<p>Modernization becomes a technical project with organizational side effects, rather than a true transformation.</p>
+
+<h2 id="domain-driven-design-as-an-organizational-structure">Domain-Driven Design as an organizational structure</h2>
+
+<p>In this context, Domain-Driven Design is more than an approach to system modeling. It provides a structure that can be directly reflected in the organization.</p>
+
+<p>Domains are not just technical units. They represent areas of business responsibility. They define where decisions are made, where knowledge resides, and where change happens.</p>
+
+<p>When a system is structured around domains, the organizational implications become unavoidable.</p>
+
+<p>Who owns a domain?<br />
+How are decisions made within it?<br />
+How are dependencies between domains managed?</p>
+
+<p>DDD makes these questions explicit—and requires them to be answered.</p>
+
+<h2 id="agile-transformation-beyond-processes">Agile transformation beyond processes</h2>
+
+<p>A similar dynamic can be observed with agility. In many organizations, agile transformation is primarily understood as the introduction of processes, roles, and ceremonies. Scrum events are established, boards are created, and terminology is adopted.</p>
+
+<p>However, the essence of agility lies elsewhere.</p>
+
+<p>Agility is about making decisions where the relevant knowledge exists. It is about incorporating feedback quickly, taking responsibility, and working effectively under uncertainty.</p>
+
+<p>In this sense, agility is not a process.<br />
+It is an organizational principle.</p>
+
+<h2 id="connecting-structure-and-ways-of-working">Connecting structure and ways of working</h2>
+
+<p>The connection between Domain-Driven Design and agility becomes particularly clear when both are considered together.</p>
+
+<p>DDD defines meaningful boundaries and areas of responsibility.<br />
+Agility describes how work and decision-making happen within those boundaries.</p>
+
+<p>Only this combination creates a consistent system:</p>
+
+<p>Teams are aligned with business domains.<br />
+Responsibility is clearly assigned.<br />
+Decisions are made where the relevant knowledge exists.<br />
+Dependencies are managed deliberately rather than emerging by accident.</p>
+
+<p>Modernization thus becomes not only technically feasible, but also organizationally coherent.</p>
+
+<h2 id="common-anti-patterns-in-practice">Common anti-patterns in practice</h2>
+
+<p>In many organizations, recurring patterns can be observed that work against this logic.</p>
+
+<p>Feature teams operate across multiple domains without developing deep understanding. Architectural decisions are made centrally, while implementation is distributed. Teams optimize locally without considering the impact on the overall system.</p>
+
+<p>These structures inevitably lead to systems that are difficult to understand, hard to change, and tightly coupled.</p>
+
+<h2 id="implications-for-it-modernization">Implications for IT modernization</h2>
+
+<p>If systems and organizations are so closely connected, a clear conclusion follows:</p>
+
+<p>IT modernization cannot be treated as an isolated technical effort.</p>
+
+<p>Every change in system structure has implications for the organization—and vice versa.</p>
+
+<p>This does not mean that organizations need to be rebuilt from scratch. However, it does mean that structural questions must be addressed deliberately:</p>
+
+<ul>
+  <li>How are teams organized?</li>
+  <li>Where does responsibility lie?</li>
+  <li>How are decisions made?</li>
+</ul>
+
+<p>Without answering these questions, modernization remains incomplete.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>IT modernization is more than an architectural challenge. It is always, to some extent, a process of organizational change.</p>
+
+<p>Domain-Driven Design and agile principles together provide a way to connect these two dimensions.</p>
+
+<p>DDD establishes the structural foundation.<br />
+Agility defines how work is carried out within that structure.</p>
+
+<p>Only when both aspects are considered together does an environment emerge in which sustainable change becomes possible.</p>
+
+<p>Modernization then is not only about changing systems.<br />
+It is about changing how decisions are made and how responsibility is taken.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[In the previous articles, I explored different aspects of modern IT modernization. The starting point was the observation that many systems do not fail because of technology, but because of a lack of clarity about their underlying domain structure. Domain-Driven Design provides the foundation to understand systems and to define meaningful boundaries.]]></summary></entry><entry><title type="html">IT Modernization Step by Step – the Strangler Fig Pattern</title><link href="https://mehrwert.tech/Strangler-Fig-Pattern" rel="alternate" type="text/html" title="IT Modernization Step by Step – the Strangler Fig Pattern" /><published>2026-03-22T00:00:00+01:00</published><updated>2026-03-22T00:00:00+01:00</updated><id>https://mehrwert.tech/Strangler-Fig-Pattern</id><content type="html" xml:base="https://mehrwert.tech/Strangler-Fig-Pattern"><![CDATA[<p>One of the most challenging aspects of IT modernization is not defining the target architecture, but managing the transition toward it. Existing systems cannot simply be replaced in isolation. They are deeply embedded in business processes, support ongoing operations, and cannot be switched off without significant risk.</p>
+
+<p>This creates a fundamental tension: change is necessary, but stability must be preserved.</p>
+
+<h2 id="why-the-big-bang-approach-rarely-works">Why the “big bang” approach rarely works</h2>
+
+<p>A common approach to modernization is to rebuild the system entirely and replace it at a specific point in time. On the surface, this seems logical. It promises a clean cut, a well-defined target state, and a clear separation between old and new.</p>
+
+<p>In practice, however, this approach introduces significant risks.</p>
+
+<p>During the development phase, both existing and new requirements must be handled in parallel. The legacy system continues to evolve, while the new system is being built. By the time the new system is ready, the two have often diverged to a point where synchronization becomes difficult or even impossible.</p>
+
+<p>In addition, the final switch-over becomes a critical moment. Any missing functionality or unforeseen issues must be resolved under time pressure, often without the possibility of controlled rollback.</p>
+
+<p>The attempt to eliminate complexity in a single step often results in that complexity reappearing elsewhere.</p>
+
+<h2 id="the-core-idea-of-the-strangler-fig-pattern">The core idea of the Strangler Fig Pattern</h2>
+
+<p>The Strangler Fig Pattern follows a fundamentally different approach. Instead of replacing the system in one step, it transforms it incrementally. New functionality is developed outside of the existing system and gradually takes over specific responsibilities.</p>
+
+<p>Over time, the legacy system is reduced piece by piece until it can be retired entirely.</p>
+
+<p>The key idea is not a specific technical solution, but a different way of thinking about change:</p>
+
+<p>Transformation is incremental, controlled, and aligned with business boundaries.</p>
+
+<h2 id="how-the-approach-works-in-practice">How the approach works in practice</h2>
+
+<p>In practice, the Strangler Fig Pattern is often implemented by introducing a routing or integration layer that controls how requests are handled. This layer determines whether a request is processed by the legacy system or by a newly implemented component.</p>
+
+<p>At the beginning, most functionality still resides in the legacy system. As new components are introduced, specific parts of the functionality are redirected to the new system. Over time, the balance shifts until the legacy system becomes obsolete.</p>
+
+<p>This approach allows changes to be introduced gradually, without requiring a disruptive system-wide replacement. It also makes it possible to adjust or even revert decisions if unexpected issues arise.</p>
+
+<h2 id="a-concrete-example-from-practice">A concrete example from practice</h2>
+
+<p>In the project, this approach became particularly relevant in areas with frequent customer-specific adaptations. New requirements had to be implemented regularly, while existing functionality needed to remain stable.</p>
+
+<p>A full replacement of these areas would have been highly risky, as many dependencies were not fully visible.</p>
+
+<p>Instead, a clearly defined functional area was identified and implemented as a separate component. Access to this functionality was controlled through a routing layer, allowing requests to be directed either to the legacy system or to the new implementation.</p>
+
+<p>New features were developed exclusively in the new component, while existing functionality remained in the legacy system for the time being. Over time, more and more functionality was migrated until the entire domain was handled by the new system.</p>
+
+<p>This approach made it possible to evolve the system without disrupting ongoing operations.</p>
+
+<h2 id="the-connection-to-domain-driven-design">The connection to Domain-Driven Design</h2>
+
+<p>The effectiveness of the Strangler Fig Pattern depends heavily on how system boundaries are defined. This is where Domain-Driven Design plays a critical role.</p>
+
+<p>The question is not which technical components should be replaced, but which business domains can be meaningfully separated.</p>
+
+<p>Domain-Driven Design provides the necessary structure by defining clear boundaries, responsibilities, and relationships between different parts of the system.</p>
+
+<p>Without this foundation, there is a risk of simply moving technical components around, while the underlying complexity remains unchanged.</p>
+
+<p>With a clear domain model, transformation becomes focused and aligned with business needs.</p>
+
+<h2 id="managing-quality-and-risk-during-the-transition">Managing quality and risk during the transition</h2>
+
+<p>A key aspect of the Strangler Fig Pattern is the parallel operation of legacy and new systems. During this transition phase, both systems are active, which introduces additional complexity.</p>
+
+<p>Ensuring consistent behavior across both systems becomes critical.</p>
+
+<p>Approaches such as Golden Master Testing can play an important role here. By capturing and comparing system behavior, it becomes possible to detect unintended changes and maintain stability while introducing new components.</p>
+
+<p>At the same time, challenges such as data consistency, synchronization, and monitoring must be addressed explicitly. The advantage of the incremental approach is that these challenges can be tackled step by step, rather than all at once.</p>
+
+<h2 id="typical-challenges-and-trade-offs">Typical challenges and trade-offs</h2>
+
+<p>The Strangler Fig Pattern reduces risk, but it does not eliminate it.</p>
+
+<p>Common challenges include:</p>
+
+<ul>
+  <li>Unclear or missing interfaces in the legacy system</li>
+  <li>Hidden dependencies between system components</li>
+  <li>Data synchronization between legacy and new systems</li>
+  <li>Increased operational complexity due to running systems in parallel</li>
+</ul>
+
+<p>These are not side effects, but inherent aspects of the approach.</p>
+
+<p>The central trade-off is accepting short-term operational complexity in order to reduce long-term system complexity.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The Strangler Fig Pattern is not a technical trick, but a strategic approach to dealing with complex, long-lived systems.</p>
+
+<p>It shifts the focus from large, high-risk transformation projects to controlled, incremental change.</p>
+
+<p>Combined with Domain-Driven Design and appropriate quality assurance practices, it provides a structured path for evolving systems without compromising stability.</p>
+
+<p>Not through radical disruption.<br />
+But through continuous, deliberate transformation.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[One of the most challenging aspects of IT modernization is not defining the target architecture, but managing the transition toward it. Existing systems cannot simply be replaced in isolation. They are deeply embedded in business processes, support ongoing operations, and cannot be switched off without significant risk.]]></summary></entry><entry><title type="html">Ensuring Quality During Modernization – with Golden Master Testing</title><link href="https://mehrwert.tech/Golder-Master-Testing" rel="alternate" type="text/html" title="Ensuring Quality During Modernization – with Golden Master Testing" /><published>2026-03-21T00:00:00+01:00</published><updated>2026-03-21T00:00:00+01:00</updated><id>https://mehrwert.tech/Golder-Master-Testing</id><content type="html" xml:base="https://mehrwert.tech/Golder-Master-Testing"><![CDATA[<p>One of the central challenges in IT modernization is not the target architecture, but the path toward it. Existing systems need to be changed, extended, or gradually replaced—while ensuring that their current behavior remains stable.</p>
+
+<p>This creates a fundamental tension.</p>
+
+<p>On the one hand, there is pressure to evolve and improve systems.<br />
+On the other, there is the risk of unintentionally breaking or altering existing functionality.</p>
+
+<p>In long-lived systems, this risk is particularly high.</p>
+
+<h2 id="when-behavior-matters-more-than-understanding">When behavior matters more than understanding</h2>
+
+<p>In many legacy systems, business logic has evolved over years. Requirements have been added, edge cases implemented, and adjustments made—often without comprehensive documentation.</p>
+
+<p>The result is a system that works reliably, but whose behavior is only partially understood.</p>
+
+<p>In such situations, traditional testing approaches quickly reach their limits. Writing meaningful tests requires a clear understanding of expected behavior. In practice, this understanding is often incomplete.</p>
+
+<p>The alternative is not to abandon testing.<br />
+The alternative is to change the approach.</p>
+
+<h2 id="golden-master-testing-as-a-pragmatic-starting-point">Golden Master Testing as a pragmatic starting point</h2>
+
+<p>Golden Master Testing, often referred to as characterization testing, follows a deliberately pragmatic approach.</p>
+
+<p>Instead of defining how a system should behave, it captures how the system actually behaves. This observed behavior is then used as a reference for future changes.</p>
+
+<p>The principle is straightforward: existing functionality is executed with realistic inputs, the outputs are recorded, and future executions are compared against this reference.</p>
+
+<p>The goal is not to validate correctness, but to detect unintended changes.</p>
+
+<h2 id="a-concrete-example-from-practice">A concrete example from practice</h2>
+
+<p>In the project, this challenge became particularly visible in a component responsible for handling customer-specific configurations.</p>
+
+<p>New requirements needed to be implemented regularly, while existing functionality had to remain stable. In practice, however, even small changes often led to unexpected side effects in other parts of the system.</p>
+
+<p>A traditional testing approach was not feasible, as the full business logic was not documented and many edge cases were only implicitly reflected in the system’s behavior.</p>
+
+<p>The chosen approach was to capture real inputs from existing installations and systematically record the system’s outputs. These outputs formed the “Golden Master.”</p>
+
+<p>For each change, the system was executed again with the same inputs, and the results were compared automatically. Any deviation became immediately visible and could be analyzed in detail.</p>
+
+<p>This approach did not create full understanding of the system.<br />
+But it ensured that existing behavior was not changed unintentionally.</p>
+
+<h2 id="where-the-approach-is-most-effective">Where the approach is most effective</h2>
+
+<p>Golden Master Testing is particularly useful in scenarios where systems are changed incrementally.</p>
+
+<p>Typical use cases include:</p>
+
+<ul>
+  <li>Refactoring existing components</li>
+  <li>Extracting domains as part of modernization</li>
+  <li>Building new services alongside legacy systems</li>
+  <li>Stabilizing critical areas with frequent changes</li>
+</ul>
+
+<p>Especially in early transformation phases, this approach provides a crucial foundation: it enables change without compromising system stability.</p>
+
+<h2 id="limitations-and-conscious-trade-offs">Limitations and conscious trade-offs</h2>
+
+<p>Despite its strengths, Golden Master Testing is not a silver bullet.</p>
+
+<p>It preserves existing behavior—regardless of whether that behavior is correct or desirable. In legacy systems, this often means that suboptimal behavior is maintained, at least temporarily.</p>
+
+<p>This limitation is a deliberate trade-off.</p>
+
+<p>Golden Master Tests answer the question of whether behavior has changed. They do not answer whether the change is correct or necessary. That decision remains a business responsibility.</p>
+
+<p>Another important aspect is handling deviations. Not every difference indicates an error. In many cases, changes are intentional and part of system evolution. What matters is that these changes are visible and consciously made.</p>
+
+<h2 id="combined-with-domain-driven-design">Combined with Domain-Driven Design</h2>
+
+<p>In the context of IT modernization, Golden Master Testing is most effective when combined with Domain-Driven Design.</p>
+
+<p>While DDD helps to identify and structure business domains, Golden Master Testing ensures that changes within these domains can be implemented safely.</p>
+
+<p>The domain model provides direction.<br />
+Golden Master Testing reduces risk along the way.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In complex legacy systems, full understanding is often unrealistic. At the same time, stability is a prerequisite for any meaningful change.</p>
+
+<p>Golden Master Testing offers a pragmatic way to navigate this challenge. It enables change without requiring complete knowledge of every detail.</p>
+
+<p>Not as a replacement for proper business-driven testing.<br />
+But as a foundation for making modernization controllable.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[One of the central challenges in IT modernization is not the target architecture, but the path toward it. Existing systems need to be changed, extended, or gradually replaced—while ensuring that their current behavior remains stable.]]></summary></entry><entry><title type="html">DDD Meets LLMs – Why AI Fails Without Domain Understanding</title><link href="https://mehrwert.tech/DDD-3" rel="alternate" type="text/html" title="DDD Meets LLMs – Why AI Fails Without Domain Understanding" /><published>2026-03-20T00:00:00+01:00</published><updated>2026-03-20T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-3</id><content type="html" xml:base="https://mehrwert.tech/DDD-3"><![CDATA[<p>The use of large language models (LLMs) is already reshaping software development. Code can be generated, existing systems analyzed, and integrations implemented faster than ever before. Tasks that previously required specialized expertise can now often be accomplished with relatively little effort.</p>
+
+<p>This naturally leads to a common expectation: if technology takes over more of the implementation work, managing complexity in existing systems should become easier as well.</p>
+
+<p>In practice, the reality is more nuanced.</p>
+
+<h2 id="productivity-increases--complexity-remains">Productivity increases – complexity remains</h2>
+
+<p>LLMs are highly effective at leveraging existing structures. They can generate code based on established patterns, extend existing logic, and significantly accelerate repetitive tasks. In well-structured systems, this results in measurable productivity gains.</p>
+
+<p>In long-lived and poorly understood systems, however, a different dynamic emerges.</p>
+
+<p>Where business relationships are unclear and system boundaries are not well defined, the models lack the necessary context. The generated output aligns with existing structures—regardless of whether those structures are meaningful or problematic.</p>
+
+<p>In this scenario, complexity is not reduced. It is reproduced.</p>
+
+<h2 id="context-as-the-decisive-factor">Context as the decisive factor</h2>
+
+<p>LLMs do not operate in isolation. They always depend on context, which is derived from code, data, descriptions, and implicit assumptions about the system.</p>
+
+<p>If this context is incomplete or inconsistent, the effects become visible in the results. Common patterns include:</p>
+
+<ul>
+  <li>Generated code does not align with the existing architecture</li>
+  <li>Business rules are implemented inconsistently</li>
+  <li>Dependencies are reinforced rather than reduced</li>
+  <li>Technical debt grows faster than before</li>
+</ul>
+
+<p>These effects are not a weakness of the models themselves. They are a consequence of the environment in which they are used.</p>
+
+<h2 id="why-domain-understanding-becomes-more-important">Why domain understanding becomes more important</h2>
+
+<p>Against this backdrop, the importance of domain understanding increases rather than decreases.</p>
+
+<p>Domain-Driven Design provides the structure required for the effective use of LLMs. Clear business boundaries, defined responsibilities, and a shared language between business and IT create the context that these models rely on.</p>
+
+<p>In systems with well-defined domains, the quality of results improves significantly. Requirements can be formulated more precisely, prompts become more specific, and generated code is more consistent. Decisions remain traceable because they are grounded in clearly defined relationships.</p>
+
+<p>The difference lies not in the capability of the technology, but in the quality of the underlying structure.</p>
+
+<h2 id="a-shift-in-perspective">A shift in perspective</h2>
+
+<p>The current discussion around LLMs often focuses on the extent to which human development work can be replaced. This perspective is too narrow.</p>
+
+<p>The more relevant question is: under which structural conditions can LLMs be used effectively?</p>
+
+<p>The answer leads back to fundamental principles of software design: clear responsibilities, understandable domain models, and well-defined system boundaries.</p>
+
+<p>These principles are not new. However, they become significantly more important with the introduction of LLMs.</p>
+
+<h2 id="the-role-of-modern-it-leadership">The role of modern IT leadership</h2>
+
+<p>For organizations, this creates a new challenge. It is not enough to introduce new tools and expect immediate gains in efficiency. What matters is the ability to structure systems in a way that allows these technologies to deliver value.</p>
+
+<p>Modern IT leadership, in this context, means making complexity visible, shaping structures deliberately, and enabling decisions based on a clear understanding of domains.</p>
+
+<p>LLMs act as an amplifier. They accelerate existing structures—for better or worse.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>LLMs are a powerful tool, but they do not fundamentally change the challenges of complex systems. Without a clear understanding of the underlying domain structure, their impact remains limited.</p>
+
+<p>Domain-Driven Design is therefore not an alternative to AI, but a prerequisite for using it effectively.</p>
+
+<p>Organizations investing in LLMs should invest equally in the structure of their systems—not as a theoretical exercise, but as a practical foundation for sustainable IT modernization.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[The use of large language models (LLMs) is already reshaping software development. Code can be generated, existing systems analyzed, and integrations implemented faster than ever before. Tasks that previously required specialized expertise can now often be accomplished with relatively little effort.]]></summary></entry><entry><title type="html">From Domains to Decisions – How DDD Enables Real IT Modernization</title><link href="https://mehrwert.tech/DDD-2" rel="alternate" type="text/html" title="From Domains to Decisions – How DDD Enables Real IT Modernization" /><published>2026-03-18T00:00:00+01:00</published><updated>2026-03-18T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-2</id><content type="html" xml:base="https://mehrwert.tech/DDD-2"><![CDATA[<p>The first step is understanding the system. Making domains visible, identifying dependencies, and building a shared understanding between business and IT.</p>
+
+<p>But this is where the real challenge begins.</p>
+
+<p>A domain model alone does not change anything. It creates transparency, but not decisions. The key question is therefore: how do you turn this understanding into a concrete, manageable modernization effort?</p>
+
+<h2 id="from-understanding-to-prioritization">From understanding to prioritization</h2>
+
+<p>A structured domain model reveals how a system is organized from a business perspective. It shows which areas exist, how they interact, and where complexity emerges.</p>
+
+<p>What initially appears to be a purely analytical exercise quickly becomes the foundation for prioritization. As transparency increases, it becomes clear that not all parts of the system are equally relevant.</p>
+
+<p>Some domains are closely tied to the core business and directly influence competitiveness. Others serve supporting functions or have evolved historically without providing significant value today.</p>
+
+<p>Without this differentiation, typical problems arise. Teams work in parallel without a shared direction. Resources are distributed without a clear understanding of where they create the most impact. Modernization becomes a collection of isolated initiatives rather than a coordinated transformation.</p>
+
+<p>Systematically evaluating domains—based on factors such as business relevance, change pressure, and technical complexity—creates a solid basis for decision-making.</p>
+
+<h2 id="dependencies-as-a-key-control-factor">Dependencies as a key control factor</h2>
+
+<p>In addition to the importance of individual domains, their dependencies play a central role. In long-lived systems, these dependencies are often implicit, historically evolved, and rarely fully documented.</p>
+
+<p>Yet they are one of the main factors that determine what is actually feasible.</p>
+
+<p>In the project, it became clear that seemingly isolated changes often had unexpected effects on other parts of the system. Functions that appeared independent were tightly coupled, either technically or from a business perspective.</p>
+
+<p>Only by making these dependencies explicit did a realistic picture emerge.</p>
+
+<p>Dependencies are not purely technical. They often reflect business relationships and are closely tied to how processes are structured within the organization.</p>
+
+<p>Without this understanding, planning remains speculative. With it, planning becomes reliable.</p>
+
+<h2 id="why-sequencing-matters-more-than-target-architectures">Why sequencing matters more than target architectures</h2>
+
+<p>Modernization efforts often focus heavily on target architectures. Future system landscapes are designed, technologies are selected, and structures are defined.</p>
+
+<p>While these target states are important, they are not sufficient.</p>
+
+<p>The key question is not only what the system should look like, but how to get there.</p>
+
+<p>In complex systems, the sequence of changes is often more important than the desired end state. A technically sound target architecture may be impossible to implement if it ignores existing dependencies.</p>
+
+<p>In the project, it became clear that certain domains first needed to be stabilized or decoupled before others could be modernized effectively.</p>
+
+<p>Modernization thus becomes a sequence of interdependent decisions, rather than a single design exercise.</p>
+
+<h2 id="migration-strategies-as-deliberate-choices">Migration strategies as deliberate choices</h2>
+
+<p>Based on domain understanding and dependency analysis, different migration strategies can be derived. These are not abstract concepts, but direct consequences of the system’s structure.</p>
+
+<p>In some cases, it makes sense to refactor existing components incrementally. In others, a clear separation and reimplementation of specific domains is the better approach. Some areas can be stabilized and deliberately left unchanged for the time being.</p>
+
+<p>The key is that these decisions are not driven by technology, but by business context.</p>
+
+<p>Every strategy involves trade-offs between risk, speed, and effort. Without a clear understanding of the domains, these trade-offs cannot be evaluated properly.</p>
+
+<h2 id="transformation-as-a-structured-process">Transformation as a structured process</h2>
+
+<p>A useful concept in this context is organizing modernization into clearly defined transformation units, often referred to as “waves.”</p>
+
+<p>Instead of defining a single large, hard-to-control program, modernization is broken down into sequential phases. Each phase focuses on selected domains, considers their dependencies, and delivers a concrete outcome.</p>
+
+<p>This approach makes progress visible while allowing for flexibility as new insights emerge.</p>
+
+<p>It reduces risk by avoiding large-scale simultaneous changes and enables teams to learn from each step and adapt accordingly.</p>
+
+<h2 id="from-analysis-to-roadmap">From analysis to roadmap</h2>
+
+<p>The combination of domain model, evaluation, and dependency analysis ultimately results in a roadmap that goes beyond simple planning.</p>
+
+<p>It does not only describe what should be done, but also why a particular sequence makes sense.</p>
+
+<p>This fundamentally changes the role of the roadmap. It becomes not a static target state, but a tool for continuous decision-making.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Domain-Driven Design does not provide the solution to IT modernization. It provides the foundation for developing meaningful solutions.</p>
+
+<p>Only with a clear understanding of domains and their relationships do priorities become visible, dependencies understandable, and decisions traceable.</p>
+
+<p>Modernization does not become easy.<br />
+But it becomes manageable.</p>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>With a structured roadmap in place, the foundation for implementation is established. However, this phase introduces a new challenge:</p>
+
+<p>How can existing systems be changed without compromising their stability?</p>
+
+<p>And what role do approaches such as Golden Master Testing or the Strangler Fig Pattern play in this process?</p>
+
+<p>This is what the next articles will explore.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[The first step is understanding the system. Making domains visible, identifying dependencies, and building a shared understanding between business and IT.]]></summary></entry><entry><title type="html">Rethinking IT Modernization – The Role of Domain-Driven Design</title><link href="https://mehrwert.tech/DDD-1" rel="alternate" type="text/html" title="Rethinking IT Modernization – The Role of Domain-Driven Design" /><published>2026-03-14T00:00:00+01:00</published><updated>2026-03-14T00:00:00+01:00</updated><id>https://mehrwert.tech/DDD-1</id><content type="html" xml:base="https://mehrwert.tech/DDD-1"><![CDATA[<p>IT modernization is currently one of the dominant topics across many organizations. New market demands, increasing cost pressure, and technological developments such as AI are pushing companies to rethink their existing systems. At the same time, experience shows that these initiatives are often more complex than anticipated and frequently fail to deliver the expected results.</p>
+
+<p>A recent project illustrates this situation clearly. Over many years, a system had evolved into a monolith built on more than 25 different technologies and programming languages. It was deployed in over 200 installations, many of them tailored to specific customer requirements. At the same time, knowledge about the system had become fragmented: individual parts were understood, but a shared understanding of the system as a whole no longer existed.</p>
+
+<p>This situation is not an exception. It is typical for many long-lived IT landscapes.</p>
+
+<h2 id="when-systems-are-no-longer-evolvable">When systems are no longer evolvable</h2>
+
+<p>The real challenges are not primarily visible in architecture diagrams, but in day-to-day operations. Changes become increasingly risky because their impact on other parts of the system can no longer be reliably assessed. Customer-specific adaptations regularly introduce unintended side effects, as implicit dependencies remain hidden. At the same time, quality assurance turns into a bottleneck, since the system’s behavior can no longer be consistently reproduced or verified.</p>
+
+<p>In this particular case, a single installation took more than a year to complete and had to be carried out on-site at the customer. At the same time, new business requirements—such as data visualization—could not be implemented. Not because of a lack of technical expertise, but because the existing system structure made such changes practically impossible.</p>
+
+<p>The system continued to function.<br />
+But it was no longer capable of evolving.</p>
+
+<h2 id="common-assumptions--and-why-they-fail">Common assumptions – and why they fail</h2>
+
+<p>In situations like this, two assumptions frequently emerge. The first is the belief that the existing system is generally understood. The second is the expectation that new technologies—particularly AI—will take over much of the modernization effort.</p>
+
+<p>Both assumptions tend to break down in practice.</p>
+
+<p>In the project described, it quickly became clear that there was no shared understanding of the system. Knowledge existed, but it was distributed across individuals and teams. Decisions were made locally, without fully understanding their impact on the overall system.</p>
+
+<p>The expectation that technology alone can solve these problems is equally misleading. Tools such as LLMs can leverage and accelerate existing structures, but they cannot replace a missing understanding of the domain. Without clearly defined relationships and boundaries, there is no solid foundation for meaningful automation or generation.</p>
+
+<h2 id="why-traditional-modernization-approaches-fall-short">Why traditional modernization approaches fall short</h2>
+
+<p>Against this backdrop, it becomes clear why many modernization efforts do not achieve their intended outcomes. A common reaction is to design a new architecture or even attempt a complete rebuild. While these approaches may be technically sound, they fall short if the underlying domain structure is not properly understood.</p>
+
+<p>In practice, this often leads to a situation where existing complexity is not reduced, but simply transferred into a new technological environment. Dependencies remain, business ambiguities persist, and the fundamental problems are carried forward rather than resolved.</p>
+
+<p>The technology changes.<br />
+The complexity stays.</p>
+
+<h2 id="domain-driven-design-as-a-structuring-approach">Domain-Driven Design as a structuring approach</h2>
+
+<p>The turning point in the project did not come from a technical decision, but from a shift in perspective. Instead of focusing immediately on target architectures, the team started by analyzing the system from a business domain perspective.</p>
+
+<p>Key questions included: What domains actually exist? How are they connected? And which of them are truly critical to the business?</p>
+
+<p>A crucial difference was that this analysis was not performed by IT alone. Only through the involvement of business stakeholders did a shared understanding of the domains and their relationships emerge. This shared model became the foundation for all subsequent decisions.</p>
+
+<h2 id="the-role-of-an-external-perspective">The role of an external perspective</h2>
+
+<p>An often underestimated factor in this context is the value of an external perspective. In long-established organizations, many structures become implicit and are no longer questioned. Historical decisions are continued, even when their original rationale no longer applies.</p>
+
+<p>An external perspective does not necessarily introduce better ideas, but it helps to make existing assumptions visible and subject them to systematic scrutiny. This is what enables real prioritization.</p>
+
+<h2 id="what-changes-as-a-result">What changes as a result</h2>
+
+<p>With a clear understanding of domains, the perspective on modernization shifts fundamentally. The central question is no longer how to replace the system as a whole, but which parts are actually relevant, where investment creates value, and which areas can intentionally remain unchanged.</p>
+
+<p>Modernization becomes less of a large-scale technical initiative and more of a sequence of informed decisions grounded in business context.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The main challenge in IT modernization is rarely the technology itself. It is the lack of clarity about the underlying domain structure. Domain-Driven Design provides a way to make this structure visible and to use it as a basis for decision-making.</p>
+
+<p>Not as a methodological end in itself, but as a practical means to reduce complexity in existing systems and make modernization manageable.</p>
+
+<h2 id="outlook">Outlook</h2>
+
+<p>Once a clear domain understanding is established, it becomes possible to derive concrete next steps—from prioritizing specific areas to defining migration strategies and building a realistic roadmap.</p>
+
+<p>This is what the next article will focus on.</p>]]></content><author><name>Marcel</name></author><category term="de" /><category term="posts" /><category term="Modernisierung," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[IT modernization is currently one of the dominant topics across many organizations. New market demands, increasing cost pressure, and technological developments such as AI are pushing companies to rethink their existing systems. At the same time, experience shows that these initiatives are often more complex than anticipated and frequently fail to deliver the expected results.]]></summary></entry><entry><title type="html">n8n Reality Check - Productivity Gain or Programming with a User Interface?</title><link href="https://mehrwert.tech/en/n8n-1" rel="alternate" type="text/html" title="n8n Reality Check - Productivity Gain or Programming with a User Interface?" /><published>2026-01-27T00:00:00+01:00</published><updated>2026-01-27T00:00:00+01:00</updated><id>https://mehrwert.tech/en/n8n-1</id><content type="html" xml:base="https://mehrwert.tech/en/n8n-1"><![CDATA[<p>Automation Between Orchestration and Hidden Complexity.</p>
+
+<p>Low-code workflow automation promises efficiency, speed, and less manual work. Tools like n8n embrace this promise—with a visual interface, numerous integrations, and the ability to quickly piece together processes. But how much actual added value do they still provide today? And where are the limits of such low-code approaches?</p>
+
+<p>This article provides a critical assessment of n8n—technically, organizationally, and with a view to resource-efficient software development.</p>
+
+<h2 id="what-is-n8nand-what-is-it-not">What is n8n—and what is it not?</h2>
+
+<p>n8n is a platform for <strong>workflow automation</strong>. So-called <em>triggers</em> (e.g., webhooks or schedules) initiate <em>nodes</em> that perform actions: API calls, database queries, if/else logic, or data transformations. This creates workflows that move data between systems and automate processes.</p>
+
+<p>Typical use cases include:</p>
+
+<ul>
+  <li>A form is submitted → data lands in the CRM → a Slack message is sent</li>
+  <li>An invoice arrives by email → information is extracted → accounting is updated</li>
+</ul>
+
+<p>It is important to classify n8n correctly: <strong>n8n is not a classic no-code tool</strong>. At the latest with expressions, custom nodes, and especially the <strong>code nodes</strong> where JavaScript or Python is executed, you are clearly in the <strong>low-code realm</strong>. The real value lies not in “coding without code” but in the <strong>orchestration of logic, APIs, and processes</strong>. However, this also carries a risk: <strong>complex software is easily disguised as a simple flow</strong>.</p>
+
+<h2 id="which-needs-does-n8n-address">Which needs does n8n address?</h2>
+
+<p>n8n targets not so much clearly defined roles but certain <strong>motivations</strong> found in many teams:</p>
+
+<ul>
+  <li>Processes should be <strong>automated quickly</strong> without long development cycles</li>
+  <li>Manual, error-prone work should be reduced</li>
+  <li>Data and infrastructure should remain <strong>under own control</strong> (self-hosting)</li>
+  <li>Solutions should work pragmatically—even with limited development resources</li>
+</ul>
+
+<p>From these needs arise typical contexts of use: tech-savvy engineering or platform teams, operations and DevOps areas with many SaaS tools, as well as SMEs and startups prioritizing speed over formal architecture.</p>
+
+<p>The critical point: n8n appears externally as “no-code for everyone,” but in practice it requires users to have at least <strong>basic coding skills</strong>—enough to understand data structures, follow logic, and configure nodes meaningfully. Thus, n8n is mostly <strong>low-code for people who can handle complexity, debugging, and operations</strong>.</p>
+
+<h2 id="what-n8n-does-well">What n8n does well</h2>
+
+<p>To be fair, n8n brings clear strengths:</p>
+
+<ul>
+  <li><strong>Rapid prototyping</strong> of integrations through many pre-built nodes</li>
+  <li><strong>Self-hosting</strong> enables data sovereignty and flexible integration into existing stacks</li>
+  <li><strong>Extensibility</strong> through custom nodes and code nodes</li>
+  <li>Support for modern <strong>AI and agent workflows</strong>, which are currently in high demand</li>
+</ul>
+
+<p>For simple to medium integration scenarios, n8n can quickly create value—<strong>but this advantage is not exclusive</strong>: comparable results can often also be achieved with scripts, small services, or other low-code and integration tools.</p>
+
+<p><strong>What low-code does not eliminate</strong></p>
+
+<p>As with many low-code frameworks, the challenge lies less in getting started than in long-term operation. As complexity increases, visual workflows become confusing, changes harder to trace, and classic engineering practices like reviews, versioning, and testing more demanding. At the same time, integrations rarely fail at the surface but due to unstable APIs, rate limits, timeouts, or expiring tokens, requiring solid monitoring and error handling concepts. Self-hosting is no free lunch either: updates, backups, secrets and rights management, as well as security hardening, merely shift the effort. Code nodes in particular increase the attack surface and make clear role and permission concepts necessary. The initial speed advantage of low-code can thus be eaten up over time by rising maintenance, operational, and security costs.</p>
+
+<h2 id="license-and-the-open-source-narrative">License and the open-source narrative</h2>
+
+<p>Another aspect often overlooked in assessments of n8n is the <strong>license model</strong>. n8n is <em>source-available</em> under the Sustainable Use License: the source code is accessible, but usage is restricted—e.g., for resale or offering as a service.</p>
+
+<p>This is fundamentally legitimate but often clashes with expectations. In a technical context, “open source” usually implies maximum freedom. For product providers, platform projects, or long-term strategic decisions, this license can therefore be a relevant criterion—or even a reason for exclusion.</p>
+
+<h2 id="programming-with-a-user-interface">Programming with a user interface?</h2>
+
+<p>One central question remains: <strong>Does n8n really help today to the extent it promises?</strong></p>
+
+<p>Many workflows ultimately consist of logic, API calls, and data transformations that can also be implemented in classic code. n8n mainly takes over orchestration—not the domain-specific or technical complexity. Let’s remember: even with n8n, users need basic programming skills.</p>
+
+<p>At the same time, modern <strong>AI-assisted coding tools</strong> significantly lower the entry barrier for classic implementations. Even with <strong>rudimentary programming skills</strong>, it is now possible to create functional applications and integrations quickly, e.g., with Copilot, ChatGPT, or Cursor.</p>
+
+<p>Small services, scripts, or integrations can thus often be generated, tested, and adapted very quickly today—even without a visual workflow framework.</p>
+
+<p>This raises the legitimate question whether n8n in many cases is rather <strong>programming with a user interface</strong>: the logic remains, only its representation changes.</p>
+
+<h2 id="resource-efficiency-automation-is-not-automatically-cost-saving">Resource efficiency: automation is not automatically cost-saving</h2>
+
+<p>Automation also consumes resources and thus causes direct and indirect costs. For example, if processes are implemented via polling instead of event-driven triggers, unnecessary computational load arises. High log and retention settings further increase storage needs and thus ongoing operational costs. Additionally, cluttered or outdated workflows often continue running permanently, consuming resources without delivering real added value.</p>
+
+<p>From a <strong>resource efficiency</strong> perspective, automation should therefore be used deliberately and regularly reviewed. Event-driven designs, limited run frequencies, and conscious data and workflow lifecycle management help avoid unnecessary consumption—and thus <strong>significantly reduce ongoing costs</strong>.</p>
+
+<h2 id="conclusion-another-solution-for-a-known-problem">Conclusion: another solution for a known problem</h2>
+
+<p>n8n is not a particularly strong or fundamentally new tool but primarily <strong>another solution for a known problem</strong>: the orchestration of integrations and automations. It does not replace engineering but shifts it into a visual interface. With the increasing power of AI-assisted coding tools, the question arises more and more whether the use of an additional low-code framework is still justified in every case.</p>
+
+<p>n8n can work for clearly defined integrations—with clear ownership, monitoring, and security concepts. At the same time, one should be aware that it is ultimately <strong>programming with a user interface</strong>. Without corresponding discipline, it quickly becomes a hard-to-maintain collection of workflows that is hardly less complex than classic code.</p>
+
+<p>The <strong>Profile Agent</strong> follows the same goal of <strong>increasing efficiency and automating recurring problems</strong>, but without visual workflows. Instead, it relies on structured logic and AI-assisted evaluation. You can read more about this approach in the article <a href="https://mehrwert.tech/en/profil-agent">Less Effort, Better Matches – The Profile Agent</a>.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="Low-Code," /><category term="Workflow-Automation," /><category term="Softwareentwicklung," /><category term="Ressourceneffizienz," /><category term="Toolkritik," /><category term="KI-gestütztes-Coding," /><category term="Integration" /><summary type="html"><![CDATA[Automation Between Orchestration and Hidden Complexity.]]></summary></entry><entry><title type="html">Less Effort, Better Matches – The Profile Agent</title><link href="https://mehrwert.tech/profil-agent" rel="alternate" type="text/html" title="Less Effort, Better Matches – The Profile Agent" /><published>2025-12-29T00:00:00+01:00</published><updated>2025-12-29T00:00:00+01:00</updated><id>https://mehrwert.tech/profil-agent</id><content type="html" xml:base="https://mehrwert.tech/profil-agent"><![CDATA[<p>In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: <strong>Which employees are actually the right fit for this project?</strong></p>
+
+<p>Who has the relevant experience? Who is currently available? And who might even be underutilized, yet would be a perfect match in terms of skills?</p>
+
+<p>Instead of clear answers, a tedious search often begins. Profiles are gathered, Excel sheets opened, old Word documents copied and adapted. A lot of knowledge exists – but not where it is needed at that moment.</p>
+
+<h2 id="the-real-problem-matching-takes-time">The Real Problem: Matching Takes Time</h2>
+
+<p>The core issue is rarely a lack of expertise, but rather a lack of overview. Skills, project experience, and roles are spread across different systems or documented only superficially. At the same time, there is often no clear connection to employees’ <strong>utilization</strong>.</p>
+
+<p>This leads to two typical situations:</p>
+
+<ul>
+  <li>Responses to tenders are delayed, even though suitable profiles exist within the company.</li>
+  <li>Employees with available capacity remain unnoticed, while other teams are overloaded.</li>
+</ul>
+
+<p>This is exactly where our <strong>Profile Agent</strong> comes into play.</p>
+
+<h2 id="how-we-do-it-from-demand-to-the-right-profile">How We Do It: From Demand to the Right Profile</h2>
+
+<p>The Profile Agent connects multiple sources of information into a single, coherent process. The starting point is either a project tender or an internal project demand. This input is automatically analyzed and structured.</p>
+
+<p>At the same time, the system accesses existing employee data – such as project descriptions, roles, skills, and timelines. Optionally, <strong>utilization data</strong> can also be integrated. This makes it possible to identify employees who are a strong skills match <strong>and</strong> currently have available capacity.</p>
+
+<p>The result is automatically generated short profiles that are precisely tailored to the specific context – for internal project planning as well as for external tenders.</p>
+
+<h2 id="under-the-hood-structure-instead-of-guesswork">Under the Hood: Structure Instead of Guesswork</h2>
+
+<p>From a technical perspective, the Profile Agent is based on a modular pipeline. A key component is <strong>Retrieval-Augmented Generation (RAG)</strong>.</p>
+
+<p>Existing employee profiles are stored as a searchable knowledge base in a vector database. Relevant experience is retrieved in a targeted manner and combined with the requirements of the tender. A language model then ensures that the result is a coherent, natural-sounding short profile.</p>
+
+<p>In addition, the Profile Agent calculates a <strong>match score</strong> that transparently shows how well a person fits a given request. This makes decisions more traceable – without removing humans from the process.</p>
+
+<h2 id="adaptable-to-context-brand-and-language">Adaptable to Context, Brand, and Language</h2>
+
+<p>Every organization communicates differently. That is why the generated profiles can be flexibly adapted – both to the company’s own corporate identity and to the <strong>corporate identity and tone of the customer</strong>. Language and writing style can also be adjusted as needed.</p>
+
+<p>This results in profiles that not only fit from a technical perspective, but also integrate seamlessly into existing proposal and communication processes.</p>
+
+<h2 id="real-value-in-everyday-work">Real Value in Everyday Work</h2>
+
+<p>The value of the Profile Agent becomes clear in day-to-day operations:</p>
+
+<ul>
+  <li>faster responses to project and customer requests</li>
+  <li>better use of existing skills and expertise</li>
+  <li>greater transparency regarding skills and utilization</li>
+  <li>consistent, high-quality profiles</li>
+  <li>less manual coordination and less time spent searching</li>
+</ul>
+
+<p>In short: <strong>less effort, better matches.</strong></p>
+
+<h2 id="no-talent-goes-unused">No Talent Goes Unused</h2>
+
+<p>The Profile Agent follows a clear guiding principle: <strong>No talent goes unused.</strong> By structuring knowledge, making it accessible, and enabling context-aware use, it helps organizations match people to the right projects more effectively – efficiently, transparently, and sustainably.</p>]]></content><author><name>Alina</name></author><category term="de" /><category term="posts" /><category term="#Künstliche" /><category term="Intelligenz," /><category term="#Wissensmanagement," /><category term="#Projektplanung," /><category term="#Ressourcenplanung" /><summary type="html"><![CDATA[In many companies, it always starts the same way. A new project request comes in. Or a customer tender lands in the inbox. The topic is interesting, the requirements are manageable – but then the real challenge begins: Which employees are actually the right fit for this project?]]></summary></entry><entry><title type="html">Knowledge management in everyday life – how Mehr.Wiki makes knowledge available on a long-term basis</title><link href="https://mehrwert.tech/mehrwiki" rel="alternate" type="text/html" title="Knowledge management in everyday life – how Mehr.Wiki makes knowledge available on a long-term basis" /><published>2025-12-18T00:00:00+01:00</published><updated>2025-12-18T00:00:00+01:00</updated><id>https://mehrwert.tech/mehrwiki</id><content type="html" xml:base="https://mehrwert.tech/mehrwiki"><![CDATA[<p>Knowledge is one of the most valuable resources in companies—and at the same time one of the most transient. A colleague spends years acquiring in-depth expertise in projects, gathering experience, and developing best practices. But what happens when this knowledge only exists in presentations, local folders, or in her own head?</p>
+
+<p>This is precisely where a central problem of modern knowledge work lies: skills are built up individually, but are often only available to the company as a whole to a limited extent. Project knowledge disappears into folder structures, insights are reworked multiple times, and valuable experience is lost as soon as teams change.</p>
+
+<p>This is where <strong>Mehr.Wiki</strong> comes in: an internal knowledge database that captures and bundles precisely this knowledge and makes it accessible to everyone—in a sustainable, structured, and future-proof way.</p>
+
+<h2 id="from-individual-knowledge-to-a-shared-resource">From individual knowledge to a shared resource</h2>
+
+<p>Mehr.Wiki is the internal knowledge platform of Mehr.Wert GmbH. Technically, it is based on MediaWiki, the open-source software that also underpins Wikipedia. However, it is not so much the technology that is important as the idea behind it: knowledge acquired by individual employees in projects, research, or training should not remain isolated. In Mehr.Wiki, it is stored in such a way that others can quickly find, understand, and reuse it—regardless of who originally developed it.</p>
+
+<h2 id="what-content-is-included-in-mehrwiki">What content is included in Mehr.Wiki?</h2>
+
+<p>Mehr.Wiki contains content from a wide variety of technical contexts—from technical questions and methodological approaches to organizational topics. It is important to note that we deliberately avoid long, newly written “wiki articles” unless necessary. Instead, existing materials are entered in an <strong>accessible</strong> manner and briefly classified.</p>
+
+<p>These include, for example, PDFs, presentations, Excel files, worksheets, and training materials. This creates a <strong>uniformly structured</strong> knowledge base from different sources that can be quickly used in everyday life.</p>
+
+<h2 id="structure-instead-of-knowledge-silos">Structure instead of knowledge silos</h2>
+
+<p>A central principle of Mehr.Wiki is a clear structure and taxonomy—and a deliberately streamlined approach to content. Instead of writing long texts or extensive editorial articles, existing media and materials are integrated simply, pragmatically, and as close as possible to their original form.</p>
+
+<p>Documents, presentations, or working materials are stored in such a way that they can be found quickly and are clearly organized without being unnecessarily reworked. Categories and subcategories ensure that content is grouped thematically on overview pages.</p>
+
+<p>The result: less maintenance, less duplication of work, and more transparency about what knowledge already exists in the company—and where it can be found.</p>
+
+<p>In knowledge management in particular, it is clear time and again that <strong>less is often more</strong>. It is not the number of functions or perfectly crafted content that determines the success of a system, but its usability in everyday life. Low-threshold access, clear structures, and carefully selected, easily available tools lower the barrier to use – and ensure that knowledge is actually shared and developed further. This is precisely where the key to sustainable knowledge management lies.</p>
+
+<h3 id="ai-supported-assistance-with-knowledge-processing">AI-supported assistance with knowledge processing</h3>
+
+<p>To ensure that data entry remains fast, the tools used are embedded in a separate routine that serves as a <strong>content intake pipeline</strong>. This pipeline maps the entire process from reading and processing to storage in the wiki and makes it possible to collect and efficiently enter multiple documents.</p>
+
+<p>We integrate <strong>commercially available API solutions</strong> for content processing: documents are analyzed automatically and provided with a <strong>short, compact summary</strong>. This mini-summary serves as an “introduction” so that colleagues can decide in seconds whether a document is relevant to them.</p>
+
+<p>In this way, AI modules primarily support structure and orientation—not the rewriting of entire content. This keeps the effort low and makes knowledge management realistic in everyday work.</p>
+
+<h2 id="robust-sustainable-and-expandable">Robust, sustainable, and expandable</h2>
+
+<p>The most important sustainability factor of Mehr.Wiki is its <strong>suitability for everyday use</strong>: new content can be quickly added, updated, and sensibly categorized—without any major hurdles. It is precisely this low threshold that ensures that the wiki is actually used and continuously maintained, rather than becoming obsolete after a one-time “documentation phase.”</p>
+
+<p>We support this technically through containerized operation. Existing content is retained during updates or restarts, and typical sources of error—such as special characters in file names or uploads that are too large—are reliably detected and communicated transparently. This ensures that Mehr.Wiki remains stable, expandable, and usable in the long term.</p>
+
+<h2 id="looking-ahead">Looking ahead</h2>
+
+<p>Mehr.Wiki is not a completed project, but an ongoing process. We are gradually developing the structure, workflows, and automation—always with the goal of making knowledge easy to share and permanently available within the company. The experience and principles gained in the process can also be transferred to other organizations and contexts where sustainable knowledge management plays a central role.</p>]]></content><author><name>Alina</name></author><category term="posts" /><category term="sustainability," /><category term="knowledge," /><category term="wiki," /><category term="knowledge" /><category term="management," /><category term="green" /><category term="IT" /><summary type="html"><![CDATA[Knowledge is one of the most valuable resources in companies—and at the same time one of the most transient. A colleague spends years acquiring in-depth expertise in projects, gathering experience, and developing best practices. But what happens when this knowledge only exists in presentations, local folders, or in her own head?]]></summary></entry><entry><title type="html">Awareness and Responsibility – Why Sustainability Is More Than Just Technology</title><link href="https://mehrwert.tech/green-agile-guide" rel="alternate" type="text/html" title="Awareness and Responsibility – Why Sustainability Is More Than Just Technology" /><published>2025-10-06T00:00:00+02:00</published><updated>2025-10-06T00:00:00+02:00</updated><id>https://mehrwert.tech/green-agile-guide</id><content type="html" xml:base="https://mehrwert.tech/green-agile-guide"><![CDATA[<p>A few years ago, I was asked to analyze the enterprise resource planning system of a major German supermarket chain. The system had evolved over decades — written in <em>Gupta</em>, a development environment that’s barely used today. One single file contained more than <strong>300,000 lines of source code</strong>. No modular structure. No documentation. No clear ownership.</p>
+
+<p>No one really knew <strong>what</strong> the system was doing, <strong>why</strong> it worked the way it did — or <strong>what would break</strong> if even a minor change was made.</p>
+
+<p>What followed wasn’t optimization — it was a complete rewrite. A multi-year project that demanded enormous resources: technically, economically, and humanly.</p>
+
+<p>For me, this was a turning point. Because it showed me that sustainability in IT doesn’t start with energy measurements — it starts with <strong>awareness and responsibility</strong>.</p>
+
+<hr />
+
+<h2 id="green-agile-starts-with-values">Green Agile Starts With Values</h2>
+
+<p>In the <a href="https://greenagile.org">Green Agile Guide</a>, we often talk about sustainable practices: impact transparency, a green product backlog, ecological architecture decisions. But all of these methods are ineffective if they aren’t built on a <strong>foundation of values</strong>.</p>
+
+<p>That’s why we’ve placed two guiding principles at the core of the guide:</p>
+
+<h3 id="awareness">Awareness</h3>
+
+<ul>
+  <li>Understanding what software really <em>does</em> — technically, ecologically, socially</li>
+  <li>Having the courage to name <strong>blind spots</strong> in teams and processes</li>
+  <li>Seeing systems in context: Who uses them? What do they really need? What costs arise in 2, 5, or 10 years?</li>
+</ul>
+
+<blockquote>
+  <p>Awareness means not just optimizing locally — but thinking globally.</p>
+</blockquote>
+
+<h3 id="responsibility">Responsibility</h3>
+
+<ul>
+  <li>Making decisions even when they’re uncomfortable or more expensive short-term</li>
+  <li>Naming technical debt — instead of ignoring it</li>
+  <li>Taking long-term maintainability seriously</li>
+  <li>Not delegating sustainability — but <strong>owning it as part of your role</strong></li>
+</ul>
+
+<blockquote>
+  <p>Responsibility means taking action — even when no one is watching.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="why-its-more-than-just-technology">Why It’s More Than Just Technology</h2>
+
+<p>Many companies today invest in sustainability initiatives — from green coding to CO₂ compensation. That’s important. But without <strong>internalized values</strong>, it often remains symbolic.</p>
+
+<p>Sustainability needs a culture in which people say:</p>
+<blockquote>
+  <p>“I understand what I’m doing — and I stand by the impact of my work.”</p>
+</blockquote>
+
+<p>That’s where Green Agile comes in. It’s not about new roles or checklists. It’s about bringing <strong>a new mindset</strong> into existing processes.</p>
+
+<hr />
+
+<h2 id="what-can-you-do">What Can You Do?</h2>
+
+<p>Here are some questions you can ask yourself — or your team:</p>
+
+<ul>
+  <li>Where are we missing <strong>transparency</strong> — technically or organizationally?</li>
+  <li>Who is <strong>truly responsible</strong> — not just formally, but in reality?</li>
+  <li>What decisions would we make differently if we thought <strong>more long-term</strong>?</li>
+</ul>
+
+<hr />
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>Over the next few weeks, I’ll share more elements of the Green Agile Guide in a short blog series — from practical techniques to role models and meaningful metrics. If you’re interested in applying the guide in your organization or contributing your thoughts, I’d love to hear from you.</p>
+
+<blockquote>
+  <p>Together, we can prove: <strong>Sustainable software doesn’t happen by accident. It’s built by people with awareness and responsibility.</strong></p>
+</blockquote>]]></content><author><name>Marcel</name></author><category term="posts" /><category term="#green-agile," /><category term="#sustainability" /><summary type="html"><![CDATA[A few years ago, I was asked to analyze the enterprise resource planning system of a major German supermarket chain. The system had evolved over decades — written in Gupta, a development environment that’s barely used today. One single file contained more than 300,000 lines of source code. No modular structure. No documentation. No clear ownership.]]></summary></entry></feed>
